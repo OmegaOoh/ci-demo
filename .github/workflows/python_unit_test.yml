@@ -27,7 +27,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest
+        pip install coverage
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest
+    - name: Test with coverage
       run: |
-        pytest
+        coverage --branch -m unittest
+    - name: Generate coverage report
+      run: |
+        coverage report
