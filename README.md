@@ -3,6 +3,7 @@ Continuous Integration Demo
 
 [![Run Unit Test](https://github.com/OmegaOoh/ci-demo/actions/workflows/python_unit_test.yml/badge.svg)](https://github.com/OmegaOoh/ci-demo/actions/workflows/python_unit_test.yml)
 [![Run flake8](https://github.com/OmegaOoh/ci-demo/actions/workflows/python-flake8.yml/badge.svg)](https://github.com/OmegaOoh/ci-demo/actions/workflows/python-flake8.yml)
+[![codecov](https://codecov.io/github/OmegaOoh/ci-demo/graph/badge.svg?token=ZEI7DN1UOF)](https://codecov.io/github/OmegaOoh/ci-demo)
 
 
 This project demonstrates use of Github Actions to build and test a Python project.  
